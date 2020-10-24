@@ -1,0 +1,76 @@
+body{
+    padding: 40px;
+    width: 1366px;
+    height: 780px;
+    margin: auto;
+}
+.page-container{
+    width: 1286px;
+    height: 700px;
+    background-color: #56836F;
+    border: 4px #006837 solid;
+    margin: auto;
+    padding: 50px;
+}
+.logo{
+    float: right;
+    height: 200px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    float: right;
+    margin-right: 100px;
+}
+.navbar li{
+    display: inline-block;
+    margin: 0 55px 0 0;
+    text-transform: capitalize;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Myriad Pro';
+    font-size: 48px;
+}
+.clear{
+    clear: right;
+}
+.box1{
+    width: 617px;
+    height: 356px;
+    background-color: #FCEE21;
+    float: left;
+    padding: 17px 26px;
+}
+.box1 img{
+    width: 150px;
+    float: right;
+    margin: 0 0 35px 43px;
+}
+.box1 p{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 19px;
+    font-family: 'Segoe UI';
+}
+.box2{
+    width: 523px;
+    height: 356px;
+    background-color: #FCEE21;
+    float: right;
+    padding: 17px 26px;
+}
+.box2 p{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 19px;
+    font-family: 'Segoe UI';
+    color: #006837;
+}
+.box2 img{
+    width: 150px;
+    float: left;
+    margin: 0 20px 36px 0;
+}
