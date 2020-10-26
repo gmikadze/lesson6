@@ -34,8 +34,13 @@ body{
     font-family: 'Myriad Pro';
     font-size: 48px;
 }
-.clear{
+header::after{
+    content: '';
+    display: block;
     clear: right;
+}
+.box-container{
+    height: 356px;
 }
 .box1{
     width: 617px;
