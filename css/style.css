@@ -41,6 +41,7 @@ header::after{
 }
 .box-container{
     height: 356px;
+    width: 1170px;
 }
 .box1{
     width: 617px;
