@@ -1,12 +1,12 @@
 body{
     padding: 40px;
-    width: 1366px;
+    max-width: 1366px;
     height: 780px;
     margin: auto;
 }
 .page-container{
-    width: 1286px;
-    height: 700px;
+    max-width: 1286px;
+    min-height: 700px;
     background-color: #56836F;
     border: 4px #006837 solid;
     margin: auto;
@@ -40,11 +40,11 @@ header::after{
     clear: right;
 }
 .box-container{
-    height: 356px;
-    width: 1170px;
+    min-height: 356px;
+    max-width: 1170px;
 }
 .box1{
-    width: 617px;
+    max-width: 617px;
     height: 356px;
     background-color: #FCEE21;
     float: left;
@@ -62,7 +62,7 @@ header::after{
     font-family: 'Segoe UI';
 }
 .box2{
-    width: 523px;
+    max-width: 523px;
     height: 356px;
     background-color: #FCEE21;
     float: right;
